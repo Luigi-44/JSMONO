@@ -1,0 +1,19 @@
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 300px;
+}
+
+.CardFilm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
